@@ -1,4 +1,7 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<img src="assets/images/readme_images/LQ2050_logo6.png" alt="Loqta2050 logo" width="400"/>
+
+ 
+# Loqta2050 News Site V1.3
 
 Welcome USER_NAME,
 
