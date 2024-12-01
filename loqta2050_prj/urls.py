@@ -18,14 +18,11 @@ from django.contrib import admin
 from django.urls import path,include
 from blog2050.views import blog2050_func
 from home.views import home_func
-from aboutus.views import aboutus_func
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', home_func, name='home_func'),
     path('blog2050/', blog2050_func, name='blog2050_func'),
-    path('aboutus', aboutus_func, name='aboutus_func'),
-
+    path('', home_func, name='home_func'),
 
 
 
