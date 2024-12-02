@@ -18,7 +18,7 @@ from django.contrib import admin
 from django.urls import path,include
 from blog2050.views import blog2050_func
 from home.views import home_func
-from aboutus import aboutus_func
+from aboutus.views import aboutus_func
 
 urlpatterns = [
     path('admin/', admin.site.urls),
