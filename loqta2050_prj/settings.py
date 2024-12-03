@@ -101,7 +101,9 @@ DATABASES = {
 
 CSRF_TRUSTED_ORIGINS = [
     "https://*.codeinstitute-ide.net/",
-    "https://*.herokuapp.com"
+    "https://*.herokuapp.com",
+    "https://loqta2050-v1-3-e08d6b94e893.herokuapp.com/"
+
 ]
 
 
