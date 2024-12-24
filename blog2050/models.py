@@ -1,5 +1,5 @@
 from django.db import models
-""" from django.contrib.auth.models import User
+from django.contrib.auth.models import User
 
 
 STATUS = ((0, "Draft"), (1, "Published"))
@@ -14,4 +14,4 @@ class Post(models.Model):
     content = models.TextField()
     created_on = models.DateTimeField(auto_now_add=True)
     status = models.IntegerField(choices=STATUS, default=0)
-    excerpt = models.TextField(blank=True) """
+    # excerpt = models.TextField(blank=True)
