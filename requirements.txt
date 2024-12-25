@@ -22,3 +22,4 @@ typing_extensions==4.12.2
 urllib3==2.2.2
 virtualenv==20.27.1
 whitenoise==6.5.0
+django-summernote~=0.8.20.0
