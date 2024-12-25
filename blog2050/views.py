@@ -1,13 +1,11 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from django.views import generic
+from .models import Post
 
 
 # Create your views here.
+class PostList(generic.ListView):
+    queryset = Post.objects.all()
+    template_name = "post_list.html"
 
-def blog2050_func(request):
-
-   if request.method == "GET":
-       return HttpResponse("Loqta2050.com")
-   elif request.method == "POST":
-       return HttpResponse("This was a POST request")
     
