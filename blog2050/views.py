@@ -14,16 +14,16 @@ class PostList(generic.ListView):
 
 def post_detail(request, slug):
     """
-    Display an individual :model:`blog.Post`.
+    Display an individual :model:`blog2050.Post`.
 
     **Context**
 
     ``post``
-        An instance of :model:`blog.Post`.
+        An instance of :model:`blog2050.Post`.
 
     **Template:**
 
-    :template:`blog/post_detail.html`
+    :template:`blog2050/post_detail.html`
     """
 
     queryset = Post.objects.filter(status=1)
@@ -32,5 +32,6 @@ def post_detail(request, slug):
     return render(
         request,
         "blog2050/post_detail.html",
-        {"post": post},
+        {"post": post,
+         "coder": "Mohamed Mesto"},
     )
