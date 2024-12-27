@@ -310,6 +310,89 @@ This command will execute all the tests we implemented, allowing you to confirm 
 All Python code has been validated using `flake8`, and the HTML has been tested using [W3C Markup Validator](https://validator.w3.org/). No major issues were found.
 
 
+## Validator Testing:
+
+Validation errors occur when HTML code does not adhere to the established standards, which can lead to browser inconsistencies or inaccessible content. It is crucial to test your code against validators like the [W3C HTML Validator](https://validator.w3.org/) to ensure compliance with best practices and maintain cross-browser functionality. Below are two examples of common validation errors, their causes, and fixes.
+
+---
+
+### **Example 1: Invalid Attribute in an Element**
+
+#### **Error**: 
+`Error: Attribute comment_id not allowed on element button at this point.`
+
+#### **Cause**:  
+HTML5 does not allow custom attributes directly on elements like `<button>`. Attributes that are not globally recognized or specific to the element type will result in validation errors.
+
+![data_comment_id](assets/images/readme_images/data_comment_id.png)
+
+
+
+#### **Fix**:  
+Use `data-*` attributes to store custom data. These attributes are valid in HTML5 and can be accessed programmatically.
+
+#### **Code Example**:  
+**Before**:
+```html
+<button class="btn btn-delete" comment_id="13">Delete</button>
+```
+
+**After**:
+```html
+<button class="btn btn-delete" data-comment-id="13">Delete</button>
+```
+
+#### **JavaScript Access**:  
+```javascript
+const button = document.querySelector('.btn-delete');
+console.log(button.dataset.commentId); // Outputs: "13"
+```
+
+---
+
+### **Example 2: Invalid Width Attribute Value**
+
+#### **Error**:  
+`Error: Bad value 75% for attribute width on element img: Expected a digit but saw % instead.`
+
+![alt text](assets/images/readme_images/width751.png)
+
+ 
+
+#### **Cause**:  
+The `width` attribute in HTML expects a numeric value in pixels, not a percentage. Using a percentage value causes a validation error.
+
+#### **Fix**:  
+Use CSS for percentage-based widths, as this is the appropriate method for responsive designs.
+
+![alt text](assets/images/readme_images/width752.png)
+
+
+#### **Code Example**:  
+**Before**:
+```html
+<img src="/static/images/example.jpg" width="75%" alt="example image">
+```
+
+**After**:
+```html
+<img src="/static/images/example.jpg" alt="example image" style="width: 75%;">
+```
+
+---
+
+### **Key Takeaways**:
+- Validation errors often arise from using non-standard attributes or incorrect syntax.
+- Use `data-*` attributes for custom data to comply with HTML5 standards.
+- Shift layout and styling tasks to CSS for better maintainability and validation compliance.
+- Regularly test your HTML with validators to ensure quality, accessibility, and browser compatibility. 
+
+ 
+
+
+
+
+
 ## Getting Started:
 
 To set up **Un2050** locally for development or testing purposes, follow these steps:

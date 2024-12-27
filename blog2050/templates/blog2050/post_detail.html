@@ -71,11 +71,11 @@
           {% endif %}
           {% if user.is_authenticated and comment.author == user %}
           <button class="btn btn-delete"
-          comment_id="{{ comment.id }}">Delete</button>
+          data-comment_id="{{ comment.id }}">Delete</button>
 
 
           <button class="btn btn-edit"
-            comment_id="{{ comment.id }}">Edit</button>
+            data-comment_id="{{ comment.id }}">Edit</button>
           {% endif %}
         </div>
         <!-- Our for loop ends here -->
