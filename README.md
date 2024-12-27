@@ -1,6 +1,11 @@
 [<img src="assets/images/readme_images/un2050_logo.png" alt="Un2050 logo" width="400"/>](https://Un2050-v1-3-e08d6b94e893.herokuapp.com/)
 
  
+
+---
+![alt text](assets/images/readme_images/main2.png)
+---
+
 # Un2050.de News Site V1.3
 
  ## Welcome 
@@ -23,19 +28,128 @@ Whether you're a casual reader, an active participant, or a site admin, **Un2050
 
 ## User Stories:
 
-### As a User:
+![userstory.png](assets/images/readme_images/userstory.png)
 
-1. I want to view news stories and comments on different topics so I can stay informed and engaged.
-2. I want to register and log in to the platform so I can contribute by posting news stories and leaving comments.
-3. I want to upvote or downvote posts so I can show my opinion on the content.
-4. I want to filter posts by categories so I can quickly find stories that interest me.
-5. I want to view the time and date of each post so I can know when the story was published.
 
-### As an Admin:
 
-1. I want to manage user posts and comments so I can moderate inappropriate content.
-2. I want to manage categories so I can keep the content organized.
-3. I want to view all user activities and ensure compliance with community guidelines.
+## **User Stories**
+
+### **As a Site User**:  
+
+1. **View News Stories and Comments**  
+   - *I want to view news stories and comments on different topics so I can stay informed and engaged.*  
+   - **Acceptance Criteria**:  
+     - AC1: A user can see a list of posts.  
+     - AC2: A user can view all comments on a specific post by clicking on the comment thread.
+
+2. **Register and Log In**  
+   - *I want to register and log in to the platform so I can contribute by posting news stories and leaving comments.*  
+   - **Acceptance Criteria**:  
+     - AC1: A user can register an account using their email.  
+     - AC2: A registered user can log in.  
+     - AC3: Logged-in users can comment on posts.  
+
+3. **Upvote or Downvote Posts**  
+   - *I want to upvote or downvote posts so I can show my opinion on the content.*
+
+4. **Filter Posts by Categories**  
+   - *I want to filter posts by categories so I can quickly find stories that interest me.*
+
+5. **View Time and Date of Posts**  
+   - *I want to view the time and date of each post so I can know when the story was published.*
+
+6. **View Comments on a Post**  
+   - *I can view comments on an individual post so that I can read the conversation.*  
+   - **Acceptance Criteria**:  
+     - AC1: Admins can view one or more comments.  
+     - AC2: Users can click on a comment thread to read the conversation.
+
+7. **Leave Comments on a Post**  
+   - *I can leave comments on a post so that I can be involved in the conversation.*  
+   - **Acceptance Criteria**:  
+     - AC1: Approved comments are visible.  
+     - AC2: Users can reply to comments, forming conversation threads.  
+     - AC3: Conversations are threaded when multiple comments exist.
+
+8. **Modify or Delete My Comments**  
+   - *I can modify or delete my comment on a post so that I can stay involved in the conversation.*  
+   - **Acceptance Criteria**:  
+     - AC1: Logged-in users can edit their comments.  
+     - AC2: Logged-in users can delete their comments.
+
+9. **View Full Post**  
+   - *I can click on a post so that I can read the full text.*  
+   - **Acceptance Criteria**:  
+     - AC1: Clicking on a post title opens a detailed view of the post.
+
+10. **Paginated List of Posts**  
+    - *I can view a paginated list of posts so that I can select which post I want to view.*  
+    - **Acceptance Criteria**:  
+      - AC1: Multiple posts are listed when available in the database.  
+      - AC2: The main page displays a paginated list of post titles.
+
+11. **Read About the Site**  
+    - *I can click on the About link so that I can read about the site.*  
+    - **Acceptance Criteria**:  
+      - AC1: Clicking the About link displays the site’s information.
+
+---
+
+### **As a Site Admin**:  
+
+1. **Moderate User Posts and Comments**  
+   - *I want to manage user posts and comments so I can moderate inappropriate content.*  
+   - **Acceptance Criteria**:  
+     - AC1: Admins can approve or disapprove comments.  
+     - AC2: Approved comments are visible, while disapproved ones are not.
+
+2. **Create, Read, Update, and Delete Posts**  
+   - *I can create, read, update, and delete posts so that I can manage my blog content.*  
+   - **Acceptance Criteria**:  
+     - AC1: Logged-in admins can create, read, update, and delete blog posts.
+
+3. **Create Draft Posts**  
+   - *I can create draft posts so that I can finish writing the content later.*  
+   - **Acceptance Criteria**:  
+     - AC1: Logged-in admins can save draft blog posts.  
+     - AC2: Draft posts can be edited and published later.
+
+4. **Manage Categories**  
+   - *I want to manage categories so I can keep the content organized.*
+
+5. **View All User Activities**  
+   - *I want to view all user activities and ensure compliance with community guidelines.*
+
+6. **Update About Page Content**  
+   - *I can create or update the about page content so that it is available on the site.*  
+   - **Acceptance Criteria**:  
+     - AC1: The About app is accessible in the admin panel.
+
+---
+
+### **As a Site Owner**:  
+
+1. **Mark Collaboration Requests as Read**  
+   - *I can mark collaboration requests as "read" so that I can see how many I still need to process.*  
+   - **Acceptance Criteria**:  
+     - AC1: Collaboration requests have a "read/unread" status flag in the database.  
+     - AC2: Status can be toggled via the admin panel.  
+     - AC3: Read requests are visually distinct from unread ones.
+
+2. **Store Collaboration Requests in the Database**  
+   - *I can store collaboration requests in the database so that I can review them.*  
+   - **Acceptance Criteria**:  
+     - AC1: Submitted requests are saved with details and metadata (e.g., date, status).  
+     - AC2: Requests are retrievable through the admin interface.
+
+3. **Add Contact Form for Collaboration Requests**  
+   - *I can fill in a contact form so that I can submit a request for collaboration.*  
+   - **Acceptance Criteria**:  
+     - AC1: The website includes a contact form for collaboration requests.  
+     - AC2: The form collects necessary details (name, email, message).  
+     - AC3: Successful submissions display a confirmation message.
+
+
 
 ## Features:
 
