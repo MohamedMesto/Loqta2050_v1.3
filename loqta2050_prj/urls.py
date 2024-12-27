@@ -16,14 +16,15 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path,include
-# from home.views import home_func
-from aboutus.views import aboutus_func
+ 
+
 
 urlpatterns = [
+    path("aboutus/", include("aboutus.urls"), name="about-urls"),
     path("", include("blog2050.urls"), name="blog2050-urls"),
     path('summernote/', include('django_summernote.urls')),
     path("admin/", admin.site.urls),
-    path("aboutus/",aboutus_func,name="aboutus_func")
+ 
 
 ]
 
