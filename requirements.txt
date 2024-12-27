@@ -3,12 +3,14 @@ bleach==6.2.0
 certifi==2024.8.30
 cffi==1.17.1
 charset-normalizer==3.3.2
+cloudinary==1.36.0
 crispy-bootstrap5==0.7
 cryptography==44.0.0
 defusedxml==0.7.1
 distlib==0.3.9
 distro==1.9.0
 dj-database-url==0.5.0
+dj3-cloudinary-storage==0.0.6
 Django==4.2.16
 django-allauth==0.57.2
 django-crispy-forms==2.3
@@ -30,9 +32,10 @@ python3-openid==3.2.0
 pythondialog==3.5.3
 requests==2.32.3
 requests-oauthlib==2.0.0
+six==1.17.0
 sqlparse==0.5.1
 typing_extensions==4.12.2
-urllib3==2.2.2
+urllib3==1.26.20
 virtualenv==20.27.1
 webencodings==0.5.1
 whitenoise==5.3.0
