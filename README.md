@@ -18,7 +18,16 @@ Welcome to **Un2050**, a dynamic and interactive news platform built using Djang
 
 ![devices](assets/images/readme_images/un2050_devices.png)
 
-## Purpose of the project
+
+
+
+# Contents
+
+- [**_Un2050.de Blog_**](#word-adventure-inspired-by-wordle-a-test-of-logic-language-and-luck)
+- [Contents](#contents)
+
+
+## Purpose of the project 
 
 The goal of **Un2050** is to create a modern, Reddit-style news platform where users can share and discuss stories from around the world. By leveraging Django and PostgreSQL, this project aims to foster a community of contributors and readers, with features designed to enhance interaction, such as upvoting, commenting, and categorizing content by topics.
 
@@ -286,12 +295,14 @@ python manage.py test
 ```
 
 This command will execute all the tests we implemented, allowing you to confirm that each core functionality works as intended. Running these tests ensures that the site remains robust and stable throughout development.
-## Bugs:
 
  
 
-### Remaining Bugs:
-- Currently, no known bugs remain.
+ 
+## Test
+
+![devices](assets/images/readme_images/Chrome_test.png)
+
 
  
 
@@ -419,7 +430,7 @@ No CSS errors found.
 
 ## Py Validation
 
-No py errors was found.
+No py errors remains.
 
 
 
