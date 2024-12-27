@@ -419,12 +419,11 @@ No CSS errors found.
 
 ## Py Validation
 
-No py errors found
-
-![py_test.png](assets/images/readme_images/py_test.png)
+No py errors was found.
 
 
 
+![py_validate.png](assets/images/readme_images/py_validate.png)
 
 
 
@@ -456,6 +455,12 @@ To set up **Un2050** locally for development or testing purposes, follow these s
    python manage.py runserver
    ```
 7. Access the site locally at [http://localhost:8000](http://localhost:8000).
+
+
+![py_test.png](assets/images/readme_images/py_test.png)
+
+
+
 
 ## Deployment:
 
