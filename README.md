@@ -1,4 +1,4 @@
-[<img src="assets/images/readme_images/un2050_logo.png" alt="Loqta2050 logo" width="400"/>](https://loqta2050-v1-3-e08d6b94e893.herokuapp.com/)
+[<img src="assets/images/readme_images/un2050_logo.png" alt="Un2050 logo" width="400"/>](https://Un2050-v1-3-e08d6b94e893.herokuapp.com/)
 
  
 # Un2050.de News Site V1.3
@@ -7,17 +7,17 @@
 
 Welcome to **Un2050**, a dynamic and interactive news platform built using Django. Un2050 is designed to provide users with the ability to post, read, and comment on news articles, offering a community-driven space for discussion and engagement. Whether you want to stay up-to-date with the latest news, engage in discussions, or share your opinions, **Un2050** provides a user-friendly platform for a seamless experience.
 
-[Here is the live version of the project](https://loqta2050-v1-3-e08d6b94e893.herokuapp.com)
+[Here is the live version of the project](https://loqta2050-v1-3-e08d6b94e893.herokuapp.com/)
 
 
 
-![devices](assets/images/readme_images/devices.png)
+![devices](assets/images/readme_images/un2050_devices.png)
 
 ## Purpose of the project
 
-The goal of **Loqta2050** is to create a modern, Reddit-style news platform where users can share and discuss stories from around the world. By leveraging Django and PostgreSQL, this project aims to foster a community of contributors and readers, with features designed to enhance interaction, such as upvoting, commenting, and categorizing content by topics.
+The goal of **Un2050** is to create a modern, Reddit-style news platform where users can share and discuss stories from around the world. By leveraging Django and PostgreSQL, this project aims to foster a community of contributors and readers, with features designed to enhance interaction, such as upvoting, commenting, and categorizing content by topics.
 
-Whether you're a casual reader, an active participant, or a site admin, **Loqta2050** provides tools to create, manage, and engage with content in a meaningful way.
+Whether you're a casual reader, an active participant, or a site admin, **Un2050** provides tools to create, manage, and engage with content in a meaningful way.
 
 
 
@@ -41,7 +41,7 @@ Whether you're a casual reader, an active participant, or a site admin, **Loqta2
 
 ### Existing Features:
 
-The **Loqta2050 News Site** offers several features to enhance user experience:
+The **Un2050 News Site** offers several features to enhance user experience:
 
 1. **User Registration and Authentication**: 
    Users can create accounts, log in, and log out securely. Once logged in, users can create and comment on posts.
@@ -71,7 +71,7 @@ The **Loqta2050 News Site** offers several features to enhance user experience:
    ![Date and Time](assets/images/readme_images/date_time.png)
 
 6. **User-friendly Interface**: 
-   Loqta2050 provides a simple and intuitive interface for users to navigate posts, leave comments, and upvote/downvote stories.
+   Un2050 provides a simple and intuitive interface for users to navigate posts, leave comments, and upvote/downvote stories.
 
 7. **Admin Moderation Tools**: 
    Admin users have access to moderation tools, allowing them to approve, delete, or edit user content when necessary.
@@ -185,7 +185,7 @@ All Python code has been validated using `flake8`, and the HTML has been tested 
 
 ## Getting Started:
 
-To set up **Loqta2050** locally for development or testing purposes, follow these steps:
+To set up **Un2050** locally for development or testing purposes, follow these steps:
 
 1. Clone this repository to your local machine.
 2. Create a virtual environment and install the dependencies using:
