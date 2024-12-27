@@ -159,43 +159,56 @@ The **Un2050 News Site** offers several features to enhance user experience:
 
 1. **User Registration and Authentication**: 
    Users can create accounts, log in, and log out securely. Once logged in, users can create and comment on posts.
-
+![Create Post](assets/images/readme_images/signin.png)
+ 
+![Create Post](assets/images/readme_images/signin2.png)
 2. **Post Creation and Voting**: 
    - Users can submit news stories on different topics.
    - Other users can upvote or downvote these posts based on their preferences.
 
    ![Create Post](assets/images/readme_images/create_post.png)
-
+ 
 
     ![alt text](assets/images/readme_images/Django_administration.png)
+
+
+
+ 
 
 3. **Commenting System**: 
    Users can comment on posts, fostering discussions on different news stories.
    
    ![Commenting](assets/images/readme_images/commenting.png)
+---
+    ![Commenting](assets/images/readme_images/commenting1.png)
 
-4. **Categorization**: 
-   Posts are categorized by topics such as Politics, Technology, Entertainment, etc., allowing users to filter stories easily.
+    ![Commenting](assets/images/readme_images/commenting2.png)
 
-   ![Categories](assets/images/readme_images/categories.png)
-
-5. **Time and Date of Posting**: 
+    ![Commenting](assets/images/readme_images/commenting3.png)
+4. **Time and Date of Posting**: 
    Each post displays the date and time it was published to provide context to the news stories.
    
    ![Date and Time](assets/images/readme_images/date_time.png)
 
-6. **User-friendly Interface**: 
-   Un2050 provides a simple and intuitive interface for users to navigate posts, leave comments, and upvote/downvote stories.
+5. **User-friendly Interface**: 
+   Un2050 provides a simple and intuitive interface for users to navigate posts, leave comments, and upvote/downvote stories. 
 
-7. **Admin Moderation Tools**: 
+6. **Admin Moderation Tools**: 
    Admin users have access to moderation tools, allowing them to approve, delete, or edit user content when necessary.
 
-![alt text](assets/images/readme_images/add_user.png)
+![alt text](assets/images/readme_images/add_user.png) 
 
-8. **Pagination for Posts**: 
+7. **Pagination for Posts**: 
    Users can browse through a paginated list of posts, making it easier to explore older news stories.
 
    ![Pagination](assets/images/readme_images/pagination.png)
+
+ 
+8. **About us Page**
+    ![Pagination](assets/images/readme_images/aboutus.png)
+    
+
+    ![Pagination](assets/images/readme_images/collaborate.png)
 
 
 ### Future Features:
