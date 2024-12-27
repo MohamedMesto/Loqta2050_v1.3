@@ -288,33 +288,20 @@ python manage.py test
 This command will execute all the tests we implemented, allowing you to confirm that each core functionality works as intended. Running these tests ensures that the site remains robust and stable throughout development.
 ## Bugs:
 
-- http://127.0.0.1:8000/admin/posts/post/
-
-![alt text](assets/images/readme_images/post_add.png)
-
-
-- http://127.0.0.1:8000/admin/posts/post/add/
-
-![alt text](assets/images/readme_images/post_show.png)
-
-
-### Solved Bugs:
-- Pagination initially displayed incorrectly on smaller devices. This was fixed by adjusting the CSS for responsive behavior.
-- An issue with user authentication when attempting to comment was resolved by properly linking the user session to the comment submission form.
+ 
 
 ### Remaining Bugs:
 - Currently, no known bugs remain.
 
-## Validator Testing:
-
-All Python code has been validated using `flake8`, and the HTML has been tested using [W3C Markup Validator](https://validator.w3.org/). No major issues were found.
-
+ 
 
 ## Validator Testing:
+
+## HTML Validation
 
 Validation errors occur when HTML code does not adhere to the established standards, which can lead to browser inconsistencies or inaccessible content. It is crucial to test your code against validators like the [W3C HTML Validator](https://validator.w3.org/) to ensure compliance with best practices and maintain cross-browser functionality. Below are two examples of common validation errors, their causes, and fixes.
 
----
+ 
 
 ### **Example 1: Invalid Attribute in an Element**
 
@@ -391,9 +378,43 @@ Use CSS for percentage-based widths, as this is the appropriate method for respo
 - Regularly test your HTML with validators to ensure quality, accessibility, and browser compatibility. 
 
  
+## CSS Validation
+
+No CSS errors found.
 
 
 
+![css_validation.png](assets/images/readme_images/css_validation.png)
+
+
+## JS Validation
+
+
+ 
+
+### Fixes Applied
+1. **ESLint and JSHint Configuration:**
+   - Added `/* eslint-env es6 */` and `/* jshint esversion: 6 */` to support ES6.
+   - This explicitly tells linters that the script uses ES6 syntax.
+
+2. **Replaced `for...of` with `Array.from().forEach`:**
+   - `Array.from()` converts the `HTMLCollection` to an array, enabling the use of `forEach`.
+   - Ensures compatibility with environments that may not support `for...of`.
+
+3. **Changed `let` to `const` where variables are not reassigned:**
+   - Ensures better readability and avoids unnecessary reassignments.
+
+4. **Used `const` or `let` instead of `var`:**
+   - To adhere to modern JavaScript standards.
+
+5. **Ensured ES6 Compatibility for Template Literals and Arrow Functions:**
+   - Verified ES6-compatible tools/environment usage.
+   - Added notes to indicate the ES6 usage for future reference.
+
+ 
+
+
+![css_validation.png](assets/images/readme_images/js_validate.png)
 
 
 ## Getting Started:
