@@ -21,6 +21,7 @@ from django.urls import path,include
 
 urlpatterns = [
     path("aboutus/", include("aboutus.urls"), name="about-urls"),
+    path("accounts/", include("allauth.urls")),
     path("", include("blog2050.urls"), name="blog2050-urls"),
     path('summernote/', include('django_summernote.urls')),
     path("admin/", admin.site.urls),
