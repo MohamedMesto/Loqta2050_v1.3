@@ -417,6 +417,22 @@ No CSS errors found.
 ![css_validation.png](assets/images/readme_images/js_validate.png)
 
 
+## Py Validation
+
+No py errors found
+
+![py_test.png](assets/images/readme_images/py_test.png)
+
+
+
+
+
+
+
+
+
+
+
 ## Getting Started:
 
 To set up **Un2050** locally for development or testing purposes, follow these steps:
