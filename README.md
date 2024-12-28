@@ -3,12 +3,11 @@
  
 
 ---
-![alt text](assets/images/readme_images/main2.png)
+[![alt text](assets/images/readme_images/main2.png)](https://loqta2050-v1-3-e08d6b94e893.herokuapp.com/)
 ---
+# **_Un2050.de News Site V1.3_**
 
-# Un2050.de News Site V1.3
-
- ## Welcome 
+## Welcome
 
 Welcome to **Un2050**, a dynamic and interactive news platform built using Django. Un2050 is designed to provide users with the ability to post, read, and comment on news articles, offering a community-driven space for discussion and engagement. Whether you want to stay up-to-date with the latest news, engage in discussions, or share your opinions, **Un2050** provides a user-friendly platform for a seamless experience.
 
@@ -20,11 +19,50 @@ Welcome to **Un2050**, a dynamic and interactive news platform built using Djang
 
 
 
-
 # Contents
 
-- [**_Un2050.de Blog_**](#word-adventure-inspired-by-wordle-a-test-of-logic-language-and-luck)
+- [**_Un2050.de News Site V1.3_**](#un2050de-news-site-v13)
+  - [Welcome](#welcome)
 - [Contents](#contents)
+  - [Purpose of the project](#purpose-of-the-project)
+  - [User Stories:](#user-stories)
+  - [**User Stories**](#user-stories-1)
+    - [**As a Site User**:](#as-a-site-user)
+    - [**As a Site Admin**:](#as-a-site-admin)
+    - [**As a Site Owner**:](#as-a-site-owner)
+  - [Features:](#features)
+    - [Existing Features:](#existing-features)
+    - [Future Features:](#future-features)
+  - [Data Model:](#data-model)
+  - [Testing:](#testing)
+    - [Manual Testing:](#manual-testing)
+    - [Automated Unit Testing:](#automated-unit-testing)
+    - [Running Tests:](#running-tests)
+  - [Test](#test)
+  - [Validator Testing:](#validator-testing)
+  - [HTML Validation](#html-validation)
+    - [**Example 1: Invalid Attribute in an Element**](#example-1-invalid-attribute-in-an-element)
+      - [**Error**:](#error)
+      - [**Cause**:](#cause)
+      - [**Fix**:](#fix)
+      - [**Code Example**:](#code-example)
+      - [**JavaScript Access**:](#javascript-access)
+    - [**Example 2: Invalid Width Attribute Value**](#example-2-invalid-width-attribute-value)
+      - [**Error**:](#error-1)
+      - [**Cause**:](#cause-1)
+      - [**Fix**:](#fix-1)
+      - [**Code Example**:](#code-example-1)
+    - [**Key Takeaways**:](#key-takeaways)
+  - [CSS Validation](#css-validation)
+  - [JS Validation](#js-validation)
+    - [Fixes Applied](#fixes-applied)
+  - [Py Validation](#py-validation)
+  - [Getting Started:](#getting-started)
+  - [Deployment:](#deployment)
+  - [Credits:](#credits)
+
+
+ 
 
 
 ## Purpose of the project 
