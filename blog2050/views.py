@@ -19,12 +19,25 @@ class PostList(generic.ListView):
 
 def post_detail(request, slug):
     """
+
     Display an individual :model:`blog2050.Post`.
 
     **Context**
 
     ``post``
-        An instance of :model:`blog2050.Post`.
+
+        An instance of model:`blog2050.Post`.
+    ``comments``
+
+        All approved comments related to the post.
+
+    ``comment_count``
+
+        A count of approved comments related to the post.
+
+    ``comment_form``
+
+        An instance of :form:`blog2050.CommentForm`.
 
     **Template:**
 
@@ -66,7 +79,21 @@ def post_detail(request, slug):
 
 def comment_edit(request, slug, comment_id):
     """
-    View to edit comments
+    Display an individual comment for edit.
+
+    **Context**
+
+    ``post``
+
+        An instance of model:`blog2050.Post`.
+
+    ``comment``
+
+        A single comment related to the post.
+
+    comment_form``
+
+        An instance of :form: blog2050.CommentForm`.
     """
     if request.method == "POST":
         queryset = Post.objects.filter(status=1)

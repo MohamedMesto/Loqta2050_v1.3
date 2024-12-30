@@ -7,7 +7,24 @@ from .forms import CollaborateForm
 
 def about_us(request):
     """
-    Renders the Aboutus page
+    Renders the most recent information on the website author and allows user collaboration requests
+
+    Displays an individual instance of :model:`about.About`.
+
+    **Context**
+
+    about``
+
+    The most recent instance of :model:`about.About`.
+
+    collaborate_form``
+
+    An instance of :form: about.CollaborateForm`.
+
+    **Template:**
+
+    :template:`aboutus/aboutus.html`|
+
     """
     if request.method == "POST":
         collaborate_form = CollaborateForm(data=request.POST)

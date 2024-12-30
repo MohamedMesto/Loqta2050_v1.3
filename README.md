@@ -3,26 +3,64 @@
  
 
 ---
-[![alt text](assets/images/readme_images/main2.png)](https://loqta2050-v1-3-e08d6b94e893.herokuapp.com/)
+[![alt text](assets/images/readme_images/main1.png)](https://loqta2050-v1-3-e08d6b94e893.herokuapp.com/)
+
+
+
+[![alt text](assets/images/readme_images/main3.png)](https://loqta2050-v1-3-e08d6b94e893.herokuapp.com/)
+
+
+[![alt text](assets/images/readme_images/main4.png)](https://loqta2050-v1-3-e08d6b94e893.herokuapp.com/)
 ---
 # **_Un2050.de News Site V1.3_**
 
-## Welcome
+## UN2050 News Site V1.3 (Stay Informed, Stay Empowered) - Portfolio Project 4 - Full Stack Toolkit project.
 
-Welcome to **Un2050**, a dynamic and interactive news platform built using Django. Un2050 is designed to provide users with the ability to post, read, and comment on news articles, offering a community-driven space for discussion and engagement. Whether you want to stay up-to-date with the latest news, engage in discussions, or share your opinions, **Un2050** provides a user-friendly platform for a seamless experience.
+**UN2050 News Site V1.3:** A Gateway to Global News and Insightful Commentary  
 
-[Here is the live version of the project](https://loqta2050-v1-3-e08d6b94e893.herokuapp.com/)
+The **UN2050 News Site** is designed to keep users informed and engaged with the latest happenings around the world. Powered by Django, this dynamic platform delivers a seamless experience for accessing news across diverse categories, reflecting a commitment to accuracy, reliability, and user engagement.
+
+### A Platform for Knowledge and Connection  
+
+At its core, **UN2050 News Site V1.3** offers users a curated selection of articles covering a wide array of topics, from politics and technology to environment and lifestyle. The intuitive navigation and categorization make it easy for readers to discover content tailored to their interests. Each article includes engaging headlines, detailed descriptions, and author insights, creating a sense of connection between the writers and the audience.
+
+### A User-Centric Experience  
+
+The platform is designed with usability in mind, featuring:  
+- **Dynamic Categorization:** Quickly locate articles in trending topics or specific categories.  
+- **Interactive Features:** Registered users can log in to comment, like, and share articles, fostering a sense of community among readers.  
+- **Mobile Responsiveness:** The site ensures accessibility across devices, making it convenient for users on the go.  
+
+### A Tool for Critical Thinking and Awareness  
+
+By presenting diverse perspectives on current events, **UN2050 News Site** empowers users to think critically about the world around them. Whether delving into investigative reports or exploring lifestyle tips, readers are encouraged to engage with the content actively, broadening their understanding and fostering a global perspective.
+
+### Continuous Innovation and Growth  
+
+The **UN2050 News Site V1.3** reflects the iterative evolution of a robust platform. Features such as the comments section, user-friendly contact forms, and seamless social sharing are just the beginning of a roadmap aimed at enhancing the user experience. Each iteration is a step closer to making this site a go-to destination for news enthusiasts worldwide.
+
+### Conclusion  
+
+In an era of rapid information exchange, **UN2050 News Site V1.3** stands out as a reliable and engaging news source. It goes beyond simply reporting; it fosters awareness, inspires dialogue, and creates connections among its audience. The live site invites you to explore this vibrant news hub and be part of a growing community of informed individuals.
+
+**You can view the live site here - [UN2050 News Site V1.3](https://loqta2050-v1-3-e08d6b94e893.herokuapp.com/).**  
 
 
 
-![devices](assets/images/readme_images/un2050_devices.png)
+
+[![devices](assets/images/readme_images/un2050_devices.png)](https://loqta2050-v1-3-e08d6b94e893.herokuapp.com/)
 
 
 
 # Contents
 
 - [**_Un2050.de News Site V1.3_**](#un2050de-news-site-v13)
-  - [Welcome](#welcome)
+  - [UN2050 News Site V1.3 (Stay Informed, Stay Empowered) - Portfolio Project 4 - Full Stack Toolkit project.](#un2050-news-site-v13-stay-informed-stay-empowered---portfolio-project-4---full-stack-toolkit-project)
+    - [A Platform for Knowledge and Connection](#a-platform-for-knowledge-and-connection)
+    - [A User-Centric Experience](#a-user-centric-experience)
+    - [A Tool for Critical Thinking and Awareness](#a-tool-for-critical-thinking-and-awareness)
+    - [Continuous Innovation and Growth](#continuous-innovation-and-growth)
+    - [Conclusion](#conclusion)
 - [Contents](#contents)
   - [Purpose of the project](#purpose-of-the-project)
   - [User Stories:](#user-stories)
@@ -30,16 +68,33 @@ Welcome to **Un2050**, a dynamic and interactive news platform built using Djang
     - [**As a Site User**:](#as-a-site-user)
     - [**As a Site Admin**:](#as-a-site-admin)
     - [**As a Site Owner**:](#as-a-site-owner)
+  - [Site Structure](#site-structure)
+  - [Design Choices](#design-choices)
+    - [Colour Scheme](#colour-scheme)
+    - [Typography](#typography)
   - [Features:](#features)
     - [Existing Features:](#existing-features)
     - [Future Features:](#future-features)
+  - [Technologies Used](#technologies-used)
   - [Data Model:](#data-model)
   - [Testing:](#testing)
+  - [Chrome Test](#chrome-test)
+  - [Lighthouse Testing](#lighthouse-testing)
+  - [Performance](#performance)
+    - [Desktop lighthouse Performance](#desktop-lighthouse-performance)
+    - [Mobile lighthouse Performance](#mobile-lighthouse-performance)
+  - [Accessibility Testing](#accessibility-testing)
+      - [Lighthouse Accessibility Testing](#lighthouse-accessibility-testing)
+      - [WAVE Web Accessibility Evaluation Tool](#wave-web-accessibility-evaluation-tool)
+    - [Fixing Accessibility issues:](#fixing-accessibility-issues)
+      - [Adobe Color Accessibility Tool](#adobe-color-accessibility-tool)
+  - [Responsive Testing](#responsive-testing)
+      - [The Responsive Design Checker](#the-responsive-design-checker)
+      - [The Viewport Resizer](#the-viewport-resizer)
     - [Manual Testing:](#manual-testing)
     - [Automated Unit Testing:](#automated-unit-testing)
     - [Running Tests:](#running-tests)
-  - [Test](#test)
-  - [Validator Testing:](#validator-testing)
+  - [Validator Testing - Bugs Fixed:](#validator-testing---bugs-fixed)
   - [HTML Validation](#html-validation)
     - [**Example 1: Invalid Attribute in an Element**](#example-1-invalid-attribute-in-an-element)
       - [**Error**:](#error)
@@ -59,7 +114,7 @@ Welcome to **Un2050**, a dynamic and interactive news platform built using Djang
   - [Py Validation](#py-validation)
   - [Getting Started:](#getting-started)
   - [Deployment:](#deployment)
-  - [Credits:](#credits)
+  - [Credits](#credits)
 
 
  
@@ -198,18 +253,93 @@ Whether you're a casual reader, an active participant, or a site admin, **Un2050
 
 
 
-## Features:
+## Site Structure
+
+**UN2050 News Site V1.3** is designed as a modern news platform with various sections accessible from the navigation bar. Here's an overview of its structure:
+
+1. **Home Page:**  
+   - A dynamic and welcoming page showcasing the latest news articles and featured stories.  
+   - Includes navigation links to other sections of the site.  
+
+2. **News Categories:**  
+   - **Latest News:** A curated feed of up-to-date global headlines and breaking stories.  
+   - **Trending Topics:** Highlights trending articles based on user engagement and current events.  
+   - **Categories Section:** Provides categorized content such as politics, environment, technology, and lifestyle for easy navigation.  
+
+3. **Article Page:**  
+   - **Article Content:** Displays a full news article with an image, title, and detailed body text.  
+   - **Author Information:** Includes the author's name and publication date.  
+   - **Comments Section:** Allows users to view and submit comments on articles, encouraging interaction.  
+
+4. **About Us Page:**  
+   - Learn more about the mission, vision, and team behind UN2050.  
+   - Showcases the site's goals in providing reliable and timely news to users.  
+
+5. **Contact Us Page:**  
+   - A user-friendly contact form where visitors can submit inquiries or feedback.  
+   - Includes links to social media platforms for additional interaction.  
+
+6. **User Interaction:**  
+   - Registered users can log in to comment on articles and participate in discussions.  
+   - Features such as “Share” and “Like” buttons are integrated for social sharing and engagement.  
+
+The **UN2050 News Site V1.3** is accessible at [UN2050 News Site V1.3](https://loqta2050-v1-3-e08d6b94e893.herokuapp.com/), offering an intuitive layout with seamless access to all sections via the navigation bar.  
+
+[Back to top](<#contents>)  
+
+
+## Design Choices
+
+### Colour Scheme
+ 
+
+The color scheme of Word Adventure is designed for clarity and user engagement. The interface uses a dark background (#121213) to reduce eye strain and make key elements stand out. Green (#538D4E) highlights correct letters, while orange (#B59F3B) indicates misplaced letters, providing immediate feedback. The New Game and Backspace buttons are highlighted in red (#C50E1F) for visibility, ensuring easy access to these essential controls. The overall color palette creates a visually appealing, focused gameplay experience.
+
+[Back to top](<#contents>)
+
+  
+  
+![Colour palette image of 5 colours](assets/images/readme_images/colour_palette_lyb1.png)
+
+ 
+![Colour palette image of 5 colours](assets/images/readme_images/colour_palette_lyb2.png)
+
+
+ 
+[Back to top](<#contents>)
+
+### Typography
+
+
+The typography of Word Adventure is crafted for simplicity and readability. A clean sans-serif font is used throughout the interface, ensuring a modern and approachable feel. The text appears in contrasting colors—typically light text on a dark background (#121213)—to reduce eye strain and enhance focus. This choice not only supports a smooth gameplay experience but also allows players to focus entirely on guessing the correct word. The well-defined typography aligns with the game’s intuitive and user-friendly design.
+
+[Back to top](<#contents>)
+
+## Features: 
 
 ### Existing Features:
 
 The **Un2050 News Site** offers several features to enhance user experience:
 
-1. **User Registration and Authentication**: 
+
+
+1. **Navigation**  
+ 
+
+   The navigation menu is featured at the top of the page and contains links to the main content sections:
+   - **Responsive Design:** Three variations of the navigation bar are provided for different screen sizes. Each variation maintains consistent color and design styles, while the structure adapts to ensure a smooth user experience across devices.
+ - 
+   ![Desktop Navbar](assets/images/readme_images/navbar_desktop.png)
+
+   
+   ![Mobile Navbar](assets/images/readme_images/navbar_mobile.png)
+
+2. **User Registration and Authentication**: 
    Users can create accounts, log in, and log out securely. Once logged in, users can create and comment on posts.
 ![Create Post](assets/images/readme_images/signin.png)
  
 ![Create Post](assets/images/readme_images/signin2.png)
-2. **Post Creation and Voting**: 
+3. **Post Creation and Voting**: 
    - Users can submit news stories on different topics.
    - Other users can upvote or downvote these posts based on their preferences.
 
@@ -222,7 +352,7 @@ The **Un2050 News Site** offers several features to enhance user experience:
 
  
 
-3. **Commenting System**: 
+4. **Commenting System**: 
    Users can comment on posts, fostering discussions on different news stories.
    
    ![Commenting](assets/images/readme_images/commenting.png)
@@ -232,30 +362,32 @@ The **Un2050 News Site** offers several features to enhance user experience:
 ![Commenting](assets/images/readme_images/commenting2.png)
 
 ![Commenting](assets/images/readme_images/commenting3.png)
-1. **Time and Date of Posting**: 
+5. **Time and Date of Posting**: 
    Each post displays the date and time it was published to provide context to the news stories.
    
    ![Date and Time](assets/images/readme_images/date_time.png)
 
-2. **User-friendly Interface**: 
+6. **User-friendly Interface**: 
    Un2050 provides a simple and intuitive interface for users to navigate posts, leave comments, and upvote/downvote stories. 
 
-3. **Admin Moderation Tools**: 
+7. **Admin Moderation Tools**: 
    Admin users have access to moderation tools, allowing them to approve, delete, or edit user content when necessary.
 
 ![alt text](assets/images/readme_images/add_user.png) 
 
-7. **Pagination for Posts**: 
+8. **Pagination for Posts**: 
    Users can browse through a paginated list of posts, making it easier to explore older news stories.
 
    ![Pagination](assets/images/readme_images/pagination.png)
 
  
-8. **About us Page**
+9. **About us Page**
     ![Pagination](assets/images/readme_images/aboutus.png)
     
 
     ![Pagination](assets/images/readme_images/collaborate.png)
+
+
 
 
 ### Future Features:
@@ -272,6 +404,28 @@ The **Un2050 News Site** offers several features to enhance user experience:
 4. **Tagging System**: 
    Implement a tagging system for posts to enable better organization and searching across topics.
 
+   
+## Technologies Used  
+
+- **HTML5:** Provides the foundational structure and semantic content for the **UN2050 News Site**, ensuring accessibility and compatibility across browsers.  
+- **CSS3:** Styles and layouts are meticulously crafted to deliver a responsive and visually appealing design that enhances user experience.  
+- **JavaScript (JS):** Powers the interactive elements of the site, such as navigation menus and user engagement features like comments and likes.  
+- **[Python](https://www.python.org/):** The backend logic is implemented using Python, enabling robust data handling and seamless integration with the database.  
+- **[Django](https://www.djangoproject.com/):** A high-level web framework used for building the server-side logic, managing models, views, templates, and user authentication efficiently.  
+- **[Bootstrap](https://getbootstrap.com/):** Provides a responsive grid system and pre-designed components, accelerating the design process and ensuring consistency across the site.  
+- **[PostgreSQL](https://www.postgresql.org/):** A powerful, open-source relational database system used to manage and store the site's data securely.  
+- **[Cloudinary](https://cloudinary.com/):** Utilized for hosting and optimizing images, ensuring fast loading times and reduced server load.  
+- **[Heroku](https://www.heroku.com/):** The platform used for deploying the live site, offering scalability and reliable hosting for the project.  
+- **[Adobe XD](https://www.adobe.com/ie/products/xd.html):** Employed to design wireframes and prototypes, allowing the team to visualize and test user flows before development.  
+- **[Adobe Illustrator](https://www.adobe.com/ie/products/illustrator.html):** Used to create the site's logo and social media graphics, maintaining a professional and consistent brand identity.  
+- **[Adobe Photoshop](https://www.adobe.com/ie/products/photoshop.html):** Utilized to resize and optimize images for web use, enhancing the visual quality of the site while maintaining performance.  
+- **[VS Code](https://code.visualstudio.com/):** The primary code editor for development, offering a range of extensions for better productivity and code management.  
+- **Git Bash:** A command-line tool for version control and managing project repositories efficiently.  
+- **GitHub:** Used to host and manage the codebase, ensuring version control and seamless collaboration among team members.  
+- **[Google Fonts](https://fonts.google.com/):** Provides a selection of web fonts used to ensure a clean and modern typography throughout the site.  
+- **[Favicon Generator](https://favicon.io/):** Used to create the site's favicon, adding a professional touch to the browser tab display.  
+
+
 ## Data Model:
 
 This project uses Django’s Object-Relational Mapping (ORM) to handle data interactions between the application and PostgreSQL. The key models are as follows:
@@ -287,6 +441,97 @@ The relational model ensures each post has associated comments, votes, and categ
 
 
 ## Testing:
+
+## Chrome Test
+
+![devices](assets/images/readme_images/Chrome_test.png)
+
+
+
+## Lighthouse Testing 
+
+## Performance
+The website was also put through Lighthouse testing via Chrome Devtools which tests a site under 4 different headings; Performance, Accessibility, Best Practices and it tests it under mobile and desktop criteria.
+
+### Desktop lighthouse Performance
+![Lighthouse testing](assets/images/readme_images/lighthouse_performance1.png)
+ 
+
+### Mobile lighthouse Performance
+![Lighthouse testing](assets/images/readme_images/lighthouse_performance2.png)
+ 
+ 
+
+
+
+
+## Accessibility Testing 
+
+#### Lighthouse Accessibility Testing 
+![Lighthouse Accessibility Testing](assets/images/readme_images/lighthouse_accessibility.png)
+
+
+ 
+
+#### WAVE Web Accessibility Evaluation Tool
+
+[WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) was used to check the colour contrast on the website for accessibility purposes which it passed. 
+
+![WAVE Web Accessibility Evaluation Tool Testing](assets/images/readme_images/WAVE_Web_color_accessibility_validator1.png)
+
+
+
+![WAVE Web Accessibility Evaluation Tool Testing](assets/images/readme_images/WAVE_Web_color_accessibility_validator2.png)
+
+
+ 
+
+![WAVE Web Accessibility Evaluation Tool Testing](assets/images/readme_images/WAVE_Web_color_accessibility_validator3.png)
+
+
+
+### Fixing Accessibility issues:
+
+Accessibility issues have been resolved, ensuring the link is now descriptive and user-friendly for all users, including those relying on screen readers.
+
+
+
+
+
+#### Adobe Color Accessibility Tool 
+
+The [Adobe Color Accessibility Tool](https://color.adobe.com/create/color-accessibility) was used also to ensure the color palette met accessibility standards by testing contrast and simulating color blindness. This tool confirmed that the design maintains clarity and readability for users with visual impairments.
+  
+![adobe_color_accessibility_validator2](assets/images/readme_images/adobe_color_accessibility_validator2.png)
+
+
+
+![adobe_color_accessibility_validator1](assets/images/readme_images/adobe_color_accessibility_validator1.png)
+
+
+ 
+
+## Responsive Testing
+
+#### The Responsive Design Checker
+
+Responsiveness was tested via a few different mediums manually, including Chrome Devtools, [The Viewport Resizer](https://chrome.google.com/webstore/detail/viewport-resizer-%E2%80%93-respon/kapnjjcfcncngkadhpmijlkblpibdcgm?hl=en) chrome extension and [The Responsive Design Checker](https://responsivedesignchecker.com/) website.
+
+#### The Viewport Resizer 
+![viewport_resizer1](assets/images/readme_images/viewport_resizer1.png)
+
+![viewport_resizer2](assets/images/readme_images/viewport_resizer2.png)
+
+![viewport_resizer3](assets/images/readme_images/viewport_resizer3.png)
+
+![viewport_resizer4](assets/images/readme_images/viewport_resizer4.png)
+
+![viewport_resizer5](assets/images/readme_images/viewport_resizer5.png)
+
+ 
+
+
+
 
 ### Manual Testing:
 We conducted manual testing by simulating common user behaviors to ensure the system works as expected. The scenarios tested include:
@@ -336,15 +581,11 @@ This command will execute all the tests we implemented, allowing you to confirm 
 
  
 
- 
-## Test
-
-![devices](assets/images/readme_images/Chrome_test.png)
-
+  
 
  
 
-## Validator Testing:
+## Validator Testing - Bugs Fixed:
 
 ## HTML Validation
 
@@ -528,11 +769,24 @@ This project can be deployed on platforms such as **Heroku** using the following
    ```
    git push heroku main
    ```
-## Credits:
 
-- Django documentation for providing in-depth guidance on using the framework.
-- [Unsplash](https://unsplash.com/) for free images used in the project.
-- [Pexels](https://www.pexels.com/) for additional media resources.
-- Icons from [FontAwesome](https://fontawesome.com/).
-- Other Django, Python Websites
+
+## Credits  
+
+- **[Django Documentation](https://docs.djangoproject.com/):** For providing comprehensive guidance on the framework's features, concepts, and best practices.  
+- **[Unsplash](https://unsplash.com/):** For the high-quality, free images used to enhance the visual appeal of the website.  
+- **[Pexels](https://www.pexels.com/):** For additional media resources, providing free-to-use images and videos.  
+- **[FontAwesome](https://fontawesome.com/):** For the icons used throughout the site to improve navigation and visual clarity.  
+- **[Coolors](https://coolors.co/):** For creating a harmonious and accessible color palette for the site’s design.  
+- **[W3Schools](https://www.w3schools.com/):** For quick references and examples of CSS and HTML techniques used in the project.  
+- **[Bootstrap Documentation](https://getbootstrap.com/docs/):** For detailed explanations of components and utilities used to style and layout the site.  
+- **[TinyPNG](https://tinypng.com/):** For compressing images, ensuring faster load times and better performance.  
+- **[Google Fonts](https://fonts.google.com/):** For providing a modern and clean typography for the site's content.  
+- **[Heroku Documentation](https://devcenter.heroku.com/):** For assistance with deploying the project and configuring server settings.  
+- **[Cloudinary Documentation](https://cloudinary.com/documentation):** For image hosting and optimization, ensuring efficient and responsive performance.  
+- **[Traversy Media](https://www.youtube.com/user/TechGuyWeb):** For video tutorials on Django, Bootstrap, and web development best practices.  
+- **[Code Institute Course Material](https://codeinstitute.net/):** For foundational knowledge and guidance throughout the development of the project.
+- **[Word_adventure](https://github.com/MohamedMesto/Word_adventure)**: From it the README template was sourced.
+
+You can view the live site here also: [UN2050 News Site V1.3](https://loqta2050-v1-3-e08d6b94e893.herokuapp.com/).
 
