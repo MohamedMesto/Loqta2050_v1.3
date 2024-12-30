@@ -87,7 +87,7 @@ In an era of rapid information exchange, **UN2050 News Site V1.3** stands out as
       - [Lighthouse Accessibility Testing](#lighthouse-accessibility-testing)
       - [WAVE Web Accessibility Evaluation Tool](#wave-web-accessibility-evaluation-tool)
     - [Fixing Accessibility issues:](#fixing-accessibility-issues)
-      - [Adobe Color Accessibility Tool](#adobe-color-accessibility-tool)
+    - [Adobe Color Accessibility Tool](#adobe-color-accessibility-tool)
   - [Responsive Testing](#responsive-testing)
       - [The Responsive Design Checker](#the-responsive-design-checker)
       - [The Viewport Resizer](#the-viewport-resizer)
@@ -496,11 +496,19 @@ The website was also put through Lighthouse testing via Chrome Devtools which te
 
 Accessibility issues have been resolved, ensuring the link is now descriptive and user-friendly for all users, including those relying on screen readers.
 
+![WAVE Web Accessibility Evaluation Tool Testing](assets/images/readme_images/Fix_WAVE_Web_color_accessibility_issue1.png)
+
+![WAVE Web Accessibility Evaluation Tool Testing](assets/images/readme_images/Fix_WAVE_Web_color_accessibility_issue2.png)
+
+![WAVE Web Accessibility Evaluation Tool Testing](assets/images/readme_images/Fix_WAVE_Web_color_accessibility_issue3.png)
+
+![WAVE Web Accessibility Evaluation Tool Testing](assets/images/readme_images/Fix_WAVE_Web_color_accessibility_issue4.png)
+
+**However, there are still some contrast issues to fix!**
 
 
 
-
-#### Adobe Color Accessibility Tool 
+### Adobe Color Accessibility Tool 
 
 The [Adobe Color Accessibility Tool](https://color.adobe.com/create/color-accessibility) was used also to ensure the color palette met accessibility standards by testing contrast and simulating color blindness. This tool confirmed that the design maintains clarity and readability for users with visual impairments.
   
