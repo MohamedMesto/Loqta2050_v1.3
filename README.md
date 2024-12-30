@@ -446,11 +446,13 @@ The relational model ensures each post has associated comments, votes, and categ
 
 ## Chrome Test
 
-![devices](assets/images/readme_images/Chrome_test.png)
+![Chrome_test1](assets/images/readme_images/Chrome_test1.png)
 
 
+![Chrome_test2](assets/images/readme_images/Chrome_test2.png)
 
-## Lighthouse Testing 
+
+## Lighthouse Testing
 
 ## Performance
 The website was also put through Lighthouse testing via Chrome Devtools which tests a site under 4 different headings; Performance, Accessibility, Best Practices and it tests it under mobile and desktop criteria.
