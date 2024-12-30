@@ -355,22 +355,24 @@ The **Un2050 News Site** offers several features to enhance user experience:
 4. **Commenting System**: 
    Users can comment on posts, fostering discussions on different news stories.
    
-   ![Commenting](assets/images/readme_images/commenting.png)
+ 
 
 ![Commenting](assets/images/readme_images/commenting1.png)
-
-![Commenting](assets/images/readme_images/commenting2.png)
-
+ 
 ![Commenting](assets/images/readme_images/commenting3.png)
-5. **Time and Date of Posting**: 
+
+![Commenting](assets/images/readme_images/commenting4.png)
+ 
+
+1. **Time and Date of Posting**: 
    Each post displays the date and time it was published to provide context to the news stories.
    
    ![Date and Time](assets/images/readme_images/date_time.png)
 
-6. **User-friendly Interface**: 
+2. **User-friendly Interface**: 
    Un2050 provides a simple and intuitive interface for users to navigate posts, leave comments, and upvote/downvote stories. 
 
-7. **Admin Moderation Tools**: 
+3. **Admin Moderation Tools**: 
    Admin users have access to moderation tools, allowing them to approve, delete, or edit user content when necessary.
 
 ![alt text](assets/images/readme_images/add_user.png) 
@@ -461,7 +463,7 @@ The website was also put through Lighthouse testing via Chrome Devtools which te
 ![Lighthouse testing](assets/images/readme_images/lighthouse_performance2.png)
  
  
-
+ 
 
 
 
@@ -509,7 +511,8 @@ The [Adobe Color Accessibility Tool](https://color.adobe.com/create/color-access
 ![adobe_color_accessibility_validator1](assets/images/readme_images/adobe_color_accessibility_validator1.png)
 
 
- 
+ ![adobe_color_accessibility_validator1](assets/images/readme_images/adobe_color_accessibility_validator3.png)
+
 
 ## Responsive Testing
 
